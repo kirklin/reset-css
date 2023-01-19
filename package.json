@@ -1,0 +1,30 @@
+{
+  "name": "@kirklin/reset-css",
+  "version": "0.0.1",
+  "description": "Collection of CSS reseting",
+  "author": "Kirk Lin <https://github.com/kirklin>",
+  "funding": "https://www.buymeacoffee.com/linkirk",
+  "homepage": "https://github.com/kirklin/reset-css#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirklin/reset-css.git"
+  },
+  "bugs": "https://github.com/kirklin/reset-css/issues",
+  "keywords": [],
+  "license": "MIT",
+  "exports": {
+    "./*": "./*"
+  },
+  "files": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "esno scripts/copy.ts"
+  },
+  "devDependencies": {
+    "@csstools/normalize.css": "^12.0.0",
+    "esno": "^0.16.3",
+    "pnpm": "^7.25.0",
+    "sanitize.css": "^13.0.0"
+  }
+}
