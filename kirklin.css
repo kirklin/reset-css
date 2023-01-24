@@ -359,3 +359,11 @@ video {
 [hidden] {
     display: none;
 }
+
+/* Single-page applications spread across browsers */
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+}
