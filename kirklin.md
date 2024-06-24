@@ -9,16 +9,6 @@ html {
   scrollbar-gutter: stable;
 }
 
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-    -webkit-appearance: button; /* 1 */
-    /*will affect the button style of most component libraries, so disable it*/
-    /*background-color: transparent; !* 2 *!*/
-    background-image: none; /* 2 */
-}
-
 /* Single-page applications spread across browsers */
 html,
 body,
