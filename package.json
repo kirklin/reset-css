@@ -1,6 +1,6 @@
 {
   "name": "@kirklin/reset-css",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Collection of standard reset CSS stylesheets.",
   "author": "Kirk Lin <https://github.com/kirklin>",
   "funding": "https://www.buymeacoffee.com/linkirk",
